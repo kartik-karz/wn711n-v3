@@ -1,0 +1,22 @@
+make ARCH=x86_64 CROSS_COMPILE= -C /lib/modules/4.19.0-kali5-amd64/build M=/media/tp_link/rtl8188EUS_linux_v5.2.2.4_25483.20171222  modules
+make[1]: Leaving directory '/usr/src/linux-headers-4.19.0-kali5-amd64'
+u.ko
+.o
+] undefined!
+s modification time 6.7 s in the future
+m /media/tp_link/rtl8188EUS_linux_v5.2.2.4_25483.20171222/include/osdep_service.h:46,
+                 from /media/tp_link/rtl8188EUS_linux_v5.2.2.4_25483.20171222/include/drv_types.h:32,
+                 from /media/tp_link/rtl8188EUS_linux_v5.2.2.4_25483.20171222/core/rtw_mp.c:21:
+/usr/src/linux-headers-4.19.0-kali5-common/include/linux/ieee80211.h:1442: note: this is the location of the previous definition
+ #define IEEE80211_MAX_AMPDU_BUF  0x100
+ 
+/tp_link/rtl8188EUS_linux_v5.2.2.4_25483.20171222/hal/phydm/rtl8188e/phydm_rtl8188e.c:27:
+/usr/src/linux-headers-4.19.0-kali5-common/include/linux/ieee80211.h:1442: note: this is the location of the previous definition
+ #define IEEE80211_MAX_AMPDU_BUF  0x100
+ 
+100
+ 
+rtl8188e_sreset.c:23:
+/usr/src/linux-headers-4.19.0-kali5-common/include/linux/ieee80211.h:1442: note: this is the location of the previous definition
+ #define IEEE80211_MAX_AMPDU_BUF  0x100
+ 
